@@ -1,0 +1,1 @@
+{"head":"","body":"","js":"\nTemplate.__checkName(\"commerce\");\nTemplate[\"commerce\"] = new Template(\"Template.commerce\", (function() {\n  var view = this;\n  return HTML.LI(Blaze.View(\"lookup:text\", function() {\n    return Spacebars.mustache(view.lookup(\"text\"));\n  }));\n}));\n","bodyAttrs":{}}

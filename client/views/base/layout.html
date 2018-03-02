@@ -1,0 +1,37 @@
+<template name="mainLayout">
+    <head>
+        <title>GFaim</title>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+    {{setTitle}}
+
+
+
+    <div class="container">
+        <div class="row">
+            <header class="col-md-12 jumbotron">
+                <h1>
+                    {{getGlobal 'appName' }} <br />
+                    {{#if getGlobal 'appSlogan' }}
+                    <small class="slogan">{{getGlobal 'appSlogan'}}</small>
+                    {{/if}}
+
+                </h1>
+            </header>
+        </div>
+        <div class="row">
+            <nav class="col-md-3">{{> menu}}</nav>
+            <section class="col-md-9 well">{{> yield}}</section>
+        </div>
+        <div class="row">
+            <footer class="col-md-12">
+                <hr />
+                <div class="footer">
+                    <p>Réalisé par Célestine Chareyre</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    </body>
+</template>

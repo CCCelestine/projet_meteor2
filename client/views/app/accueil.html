@@ -1,0 +1,21 @@
+<template name="accueil">
+    {{setTitle "Accueil"}}
+
+    <h2>Accueil</h2>
+
+    <header>
+        <h3>Liste de commerces</h3>
+    </header>
+
+    <ul>
+        {{#each commerces}}
+            <li><a href="/commerces/{{ _id }}"> {{ name }} </a></li>
+        {{/each}}
+    </ul>
+
+</template>
+
+<template name="commerce">
+    <li>{{text}}</li>
+</template>
+

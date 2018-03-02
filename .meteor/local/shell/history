@@ -1,0 +1,69 @@
+> var myId = Meteor.users.findOne({username: "VotreUsername"})._id
+var myId = Meteor.users.findOne({username: "VotreUsername})._id
+var myId = Meteor.users.findOne({username: "admin"})._id
+var myId = Meteor.users.findOne({username: "admin"})._id
+mongo
+var myId = Meteor.users.findOne({username: "admin"})._id
+var myId = Meteor.users.findOne({username: "admin"})_.id
+var myId = Meteor.users.findOne({username: "admin"})._id
+.exit
+var myId = Meteor.users.findOne({username: "admin""})._id
+var myId = Meteor.users.findOne({username: "admin"})._id
+Roles.addUsersToRoles(myId, ['admin'])
+.exit
+var myId = Meteor.users.findOne({username: "admin"})._id
+Roles.addUsersToRoles(myId, ['admin'])
+var myId = Meteor.users.findOne({username: "cece"})._id
+Roles.addUsersToRoles(myId, ['admin'])
+.exit
+var myId = Meteor.users.findOne({username: "cece"})._id
+console.log(myId)
+;
+;
+var myId = Meteor.users.findOne({username: "cece"})._id
+Roles.addUsersToRoles(myId, 'admin')
+.exit
+var myId = Meteor.users.findOne({username: "admin"})._id
+Roles.addUsersToRoles(myId, ['admin'])
+Roles.addUsersToRoles(myId, ['admin.0'])
+Roles.addUsersToRoles(myId, ['admin'.0])
+var myId = Meteor.users.findOne({username: "admin"})._id
+Roles.addUsersToRoles(myId, ['admin'])
+var myId = Meteor.users.findOne({username: "admin"})._id
+Roles.addUsersToRoles(myId, ['admin'])
+Roles.addUsersToRoles(myId, 'admin')
+var myId = Meteor.users.findOne({username: "cece"})._id
+Roles.addUsersToRoles(myId, 'admin')
+Roles.addUsersToRoles(myId, "admin")
+var myId = Meteor.users.findOne({username: "ok"})._id
+var myId = Meteor.users.findOne({username: "okok"})._id
+Roles.addUsersToRoles(myId, "admin")
+.exit
+var myId = Meteor.users.findOne({username: "admin"})._id
+Roles.addUsersToRoles(myId, ["admin"], roles.GLOBAL.GROUP)
+Roles.addUsersToRoles(myId, ["admin"], roles.GLOBAL_GROUP)
+Roles.addUsersToRoles(myId, ["admin"], Roles.GLOBAL_GROUP)
+var myId = Meteor.users.findOne({username: "admin"})._id
+Roles.addUsersToRoles(myId, ["admin"], Roles.GLOBAL_GROUP)
+var myId = Meteor.users.findOne({username: "okok"})._id
+Roles.addUsersToRoles(myId, ["admin"], Roles.GLOBAL_GROUP)
+Roles.addUsersToRoles(myId, ["admin"])
+.exit
+var myId = Meteor.users.findOne({username: "okok"})._id
+Roles.addUsersToRoles(myId, ["admin"])
+var myId = Meteor.users.findOne({username: "okok"})._id
+Roles.addUsersToRoles(myId, ["admin"])
+var myId = Meteor.users.findOne({username: "cece"})._id
+Roles.addUsersToRoles(myId, ["admin"])
+var myId = Meteor.users.findOne({username: "cece"})._id
+Roles.addUsersToRoles(myId, ["admin"])
+var myId = Meteor.users.findOne({username: "cece"})._id
+Roles.addUsersToRoles(myId, ["admin"])
+var myId = Meteor.users.findOne({username: "cece"})._id
+Roles.addUsersToRoles(myId, ["admin"])
+var myId = Meteor.users.findOne({username: "cece"})._id
+Roles.addUsersToRoles(myId, ["admin"])
+var myId = Meteor.users.findOne({username: "cece"})._id
+Roles.addUsersToRoles(myId, ["admin"], Roles.GLOBAL_GROUP)
+var myId = Meteor.users.findOne({username: "cece"})._id
+Roles.addUsersToRoles(myId, ["admin"])

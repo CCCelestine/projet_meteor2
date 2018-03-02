@@ -1,0 +1,28 @@
+<template name="commerces">
+    <br/>
+    <h2>{{ name }}</h2>
+    <p>Horaires : {{ horaire }}</p>
+    <p>Téléphone : {{ telephone }}</p>
+    <p>Ville : {{ ville }}</p>
+    <p>Adresse : {{ adresse }}</p>
+<br/>
+    <h3>Menus proposés :</h3>
+    <ul>
+        {{#each menus}}
+            <li> {{ name }} <br/> Description : {{ description }}
+                <br/> Prix : {{ prix }} €
+                <br/> Nombre de produits restants : {{ rest }}
+                <br/> <img src="{{ photo }}" alt="Pas de photo disponible" />
+                <br/> <input type="button" value="Commander">
+            </li>
+            <br/>
+        {{/each}}
+    </ul>
+    <br/>
+    {{#if isAdmin }}
+        <h3><a href="/commerces/{{ _id }}/add">-> Ajouter un menu </a></h3>
+    {{/if}}
+
+
+
+</template>

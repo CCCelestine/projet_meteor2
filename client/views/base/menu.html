@@ -1,0 +1,26 @@
+<template name="menu">
+
+
+    <h3>Menu</h3>
+    <ul class="nav nav-pills nav-stacked">
+        <li><a href="{{pathFor route='accueil'}}">Accueil</a></li>
+    {{#if currentUser}} {{else}} <li><a href="{{pathFor route='user.register'}}">S'inscrire</a></li> {{/if}}
+        {{#if isAdmin }}
+            <li> <a href="{{pathFor route='ajoutCommerce'}}"> Ajouter un commerce </a></li>
+        {{/if}}
+    </ul>
+
+
+    <h3>Mon compte</h3>
+    <ul class="nav nav-pills nav-stacked">
+
+        <!-- Affiche le nom de l'user et un bouton de deconnexion quand l'user est connecté, sinon affiche un bouton de connexion -->
+        {{#if currentUser}}
+            <li> {{> dashboard}}</li>
+        {{else}}
+                <a href="{{pathFor route='user.login'}}">Connectez-vous !</a>
+        {{/if}}
+    </ul>
+
+
+</template>

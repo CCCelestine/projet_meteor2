@@ -1,0 +1,13 @@
+<template name="ajoutCommerce">
+    <h1 class="text-center" >Ajouter un commerce</h1>
+    {{#autoForm collection="Commerces" id="ajoutCommerce"}}
+        <fieldset>
+            {{> afQuickField name="name"}}
+            {{> afQuickField name="horaire"}}
+            {{> afQuickField name="telephone"}}
+            {{> afQuickField name="ville"}}
+            {{> afQuickField name="adresse" rows=2}}
+        </fieldset>
+        <button type="submit" class="btn btn-primary">Valider</button>
+    {{/autoForm}}
+</template>
